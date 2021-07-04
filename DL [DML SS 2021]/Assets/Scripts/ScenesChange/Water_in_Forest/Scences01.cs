@@ -10,8 +10,6 @@ public class Scences01 : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            //score
-            LevelController.instance.SetScore();
             Debug.Log("sasa");
             NextLevel();
         }
@@ -22,3 +20,4 @@ public class Scences01 : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 }
+

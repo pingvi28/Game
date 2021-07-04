@@ -7,7 +7,7 @@ public class Ball : MonoBehaviour {
 	public LayerMask ground;
     public AudioClip SoundHit;
 
-	private const float jumpForce = 6;
+	private const float jumpForce = 4;
 
 	private Rigidbody rb;
 
@@ -38,5 +38,5 @@ public class Ball : MonoBehaviour {
 		rb.velocity = Vector3.zero;
 		rb.useGravity = false;
 	}
-
 }
+

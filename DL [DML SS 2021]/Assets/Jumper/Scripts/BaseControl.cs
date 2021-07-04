@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BaseControl : MonoBehaviour {
 
-	public float speed = 8;
+	public float speed = 9;
 	public float offsetMove = -32;
 	public Transform[] cylinders;
 

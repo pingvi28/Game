@@ -12,7 +12,7 @@ public class ScoreTrigger : MonoBehaviour {
 		if (other.CompareTag("Player"))
 		{
 			//score
-			LevelController.instance.SetScore();
+			//LevelController.instance.SetScore();
 			SetColliders(false);
             //gameObject.GetComponent<AudioSource>().PlayOneShot(SoundFx);
 		}
