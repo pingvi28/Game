@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\Player\MobileController.cs" />
     <Compile Include="Assets\Jumper\Scripts\ScoreTrigger.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\Water_in_Jumping\Scences10.cs" />
+    <Compile Include="Assets\Jumper\Scripts\Ball.cs" />
     <Compile Include="Assets\Scripts\Camera\PlayerCameraController.cs" />
     <Compile Include="Assets\Scripts\Camera\FollowCamera.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
@@ -69,7 +70,7 @@
     <Compile Include="Assets\Jumper\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Jumper\Scripts\LevelController.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\Mushroom\Scences.cs" />
-    <Compile Include="Assets\Jumper\Scripts\Ball.cs" />
+    <Compile Include="Assets\Scripts\ScenesChange\Water_in_Forest\Scences01.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Supercyan Free Forest Sample\Shaders\Legacy\CelShader.shader" />
