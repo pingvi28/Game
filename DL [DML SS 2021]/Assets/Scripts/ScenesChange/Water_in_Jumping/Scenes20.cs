@@ -4,20 +4,18 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
-public class Scences01 : MonoBehaviour
+public class Scenes20 : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("sasa");
             NextLevel();
         }
     }
 
     public void NextLevel()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("OpeningScene");
     }
 }
-
