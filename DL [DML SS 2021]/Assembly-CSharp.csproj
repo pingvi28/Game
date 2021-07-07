@@ -68,16 +68,16 @@
     <Compile Include="Assets\Jumper\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Jumper\Scripts\Error.cs" />
     <Compile Include="Assets\Jumper\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\ScenesChange\Intermediate\Scenes23.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\Intermediate\Scenes12.cs" />
     <Compile Include="Assets\Jumper\Scripts\LevelController.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\Mushroom\Scenes.cs" />
-    <Compile Include="Assets\Scripts\ScenesChange\Intermediate\Scenes23.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Supercyan Free Forest Sample\Shaders\Legacy\CelShader.shader" />
-    <None Include="Assets\Supercyan Free Forest Sample\Shaders\SupercyanShaderLighting.cginc" />
+    <None Include="Assets\Forest\Shaders\Legacy\CelShader.shader" />
+    <None Include="Assets\Forest\Shaders\SupercyanShaderLighting.cginc" />
     <None Include="Assets\Jumper\QuickOutline\Resources\Shaders\OutlineMask.shader" />
-    <None Include="Assets\Supercyan Free Forest Sample\Shaders\SupercyanShader.shader" />
+    <None Include="Assets\Forest\Shaders\SupercyanShader.shader" />
     <None Include="Assets\Jumper\QuickOutline\Resources\Shaders\OutlineFill.shader" />
   </ItemGroup>
   <ItemGroup>
