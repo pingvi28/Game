@@ -72,6 +72,19 @@
     <Compile Include="Assets\Scripts\ScenesChange\Intermediate\Scenes12.cs" />
     <Compile Include="Assets\Jumper\Scripts\LevelController.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\Mushroom\Scenes.cs" />
+    <Compile Include="Assets\LGame\Script\PlayerCollision.cs" />
+    <Compile Include="Assets\LGame\Script\Road scripts\RoadGenerator.cs" />
+    <Compile Include="Assets\LGame\Script\GameManager.cs" />
+    <Compile Include="Assets\LGame\Script\Game\CapsMovement.cs" />
+    <Compile Include="Assets\LGame\Script\Road scripts\Waypoints3.cs" />
+    <Compile Include="Assets\LGame\Script\Road scripts\Waypoints1.cs" />
+    <Compile Include="Assets\LGame\Script\Road scripts\Waypoints4.cs" />
+    <Compile Include="Assets\LGame\Script\EndTrigger.cs" />
+    <Compile Include="Assets\LGame\Script\FollowPlayer.cs" />
+    <Compile Include="Assets\LGame\Script\Score.cs" />
+    <Compile Include="Assets\LGame\Script\LevelComplete.cs" />
+    <Compile Include="Assets\LGame\Script\Road scripts\Road.cs" />
+    <Compile Include="Assets\LGame\Script\Road scripts\Waypoints2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Forest\Shaders\Legacy\CelShader.shader" />
