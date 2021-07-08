@@ -6,6 +6,6 @@ public class Home : MonoBehaviour
 {
     public void goToHome() 
     {
-        SceneManager.LoadScene("OpeningScene");
+        SceneManager.LoadScene("MainScene");
     }
 }

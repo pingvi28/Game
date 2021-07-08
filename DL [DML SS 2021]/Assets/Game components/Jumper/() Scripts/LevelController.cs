@@ -10,7 +10,6 @@ public class LevelController : MonoBehaviour {
 
 	public GameObject gameOverPanel;
 	public bool gameOver;
-	public int score;
 
 	private void Awake()
 	{
