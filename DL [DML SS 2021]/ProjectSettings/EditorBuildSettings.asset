@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jumping.unity
     guid: 4f8ac58ad997fb6499108f05742ca890
+  - enabled: 1
+    path: Assets/Scenes/CapsGame.unity
+    guid: 776db16c4d7714f4988cb476a5f185c9
   m_configObjects: {}

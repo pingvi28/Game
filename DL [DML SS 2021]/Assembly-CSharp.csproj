@@ -53,38 +53,39 @@
     <UnityVersion>2020.3.12f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\LGame\Script\Game\CapsMovement.cs" />
     <Compile Include="Assets\Jumper\QuickOutline\Scripts\Outline.cs" />
+    <Compile Include="Assets\LGame\Script\Game\GameManager.cs" />
+    <Compile Include="Assets\LGame\Script\Road scripts\Waypoints3.cs" />
     <Compile Include="Assets\Jumper\Scripts\BaseControl.cs" />
     <Compile Include="Assets\Scripts\Joystick\Joystick.cs" />
+    <Compile Include="Assets\LGame\Script\Road scripts\RoadGenerator.cs" />
+    <Compile Include="Assets\LGame\Script\Game\EndTrigger.cs" />
     <Compile Include="Assets\TimeDestroy.cs" />
+    <Compile Include="Assets\LGame\Script\Game\FollowPlayer.cs" />
+    <Compile Include="Assets\LGame\Script\Game\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\Player\MobileController.cs" />
     <Compile Include="Assets\Jumper\Scripts\ScoreTrigger.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\Water_in_Jumping\Scenes20.cs" />
+    <Compile Include="Assets\LGame\Script\Road scripts\Road.cs" />
     <Compile Include="Assets\Jumper\Scripts\Ball.cs" />
     <Compile Include="Assets\Scripts\Camera\PlayerCameraController.cs" />
     <Compile Include="Assets\Scripts\Camera\FollowCamera.cs" />
+    <Compile Include="Assets\LGame\Script\Road scripts\Waypoints2.cs" />
+    <Compile Include="Assets\LGame\Script\Game\LevelComplete.cs" />
+    <Compile Include="Assets\LGame\Script\Road scripts\Waypoints4.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\GameScriptsMenu.cs" />
+    <Compile Include="Assets\LGame\Script\Road scripts\Waypoints1.cs" />
     <Compile Include="Assets\Jumper\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Jumper\Scripts\Error.cs" />
     <Compile Include="Assets\Jumper\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\Intermediate\Scenes23.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\Intermediate\Scenes12.cs" />
+    <Compile Include="Assets\LGame\Script\Game\Score.cs" />
     <Compile Include="Assets\Jumper\Scripts\LevelController.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\Mushroom\Scenes.cs" />
-    <Compile Include="Assets\LGame\Script\PlayerCollision.cs" />
-    <Compile Include="Assets\LGame\Script\Road scripts\RoadGenerator.cs" />
-    <Compile Include="Assets\LGame\Script\GameManager.cs" />
-    <Compile Include="Assets\LGame\Script\Game\CapsMovement.cs" />
-    <Compile Include="Assets\LGame\Script\Road scripts\Waypoints3.cs" />
-    <Compile Include="Assets\LGame\Script\Road scripts\Waypoints1.cs" />
-    <Compile Include="Assets\LGame\Script\Road scripts\Waypoints4.cs" />
-    <Compile Include="Assets\LGame\Script\EndTrigger.cs" />
-    <Compile Include="Assets\LGame\Script\FollowPlayer.cs" />
-    <Compile Include="Assets\LGame\Script\Score.cs" />
-    <Compile Include="Assets\LGame\Script\LevelComplete.cs" />
-    <Compile Include="Assets\LGame\Script\Road scripts\Road.cs" />
-    <Compile Include="Assets\LGame\Script\Road scripts\Waypoints2.cs" />
+    <Compile Include="Assets\LGame\Script\Wall\WallMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Forest\Shaders\Legacy\CelShader.shader" />

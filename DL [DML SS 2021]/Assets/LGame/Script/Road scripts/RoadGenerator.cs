@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class RoadGenerator : MonoBehaviour
 {
-    private List<GameObject> ReadyRoad = new List<GameObject>();   // заполняется через код
+    private List<GameObject> ReadyRoad = new List<GameObject>();
+    private Score score;
+    public Transform player;
 
     [Header("Все участки дороги")]
     public GameObject[] Road;
@@ -80,8 +82,13 @@ public class RoadGenerator : MonoBehaviour
 
             if (ReadyRoad.Count != 0)   // если длина массива текущей дороги больше 0
             {
-                RemovingRoad();   // то вызываем метод удаления дороги
+                RemovingRoad();  
             }
+        }
+
+        if ((15.991f < (player.position.x + 3) && (player.position.x + 3) < 16.0f) || (35.99f < (player.position.x + 3) && (player.position.x + 3) < 36.0f))
+        {
+            speedRoad += 1;
         }
     }
 
