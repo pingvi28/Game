@@ -33,6 +33,8 @@ public class RoadGenerator : MonoBehaviour
 
     private int currentRoadNumber = -1;   // текущий номер дороги
     private int lastRoadNumber = -1;   // последний номер дороги
+    private bool needSpeedIncrease = true;
+    private bool needSpeedIncrease1 = true;
 
     [Header("Статус генерации")]
     public string roadGenerationStatus = "Generation";
@@ -86,9 +88,16 @@ public class RoadGenerator : MonoBehaviour
             }
         }
 
-        if ((15.991f < (player.position.x + 3) && (player.position.x + 3) < 16.0f) || (35.99f < (player.position.x + 3) && (player.position.x + 3) < 36.0f))
+        if (Score.score == 5 && needSpeedIncrease)
         {
-            speedRoad += 1;
+            speedRoad += 1f;
+            needSpeedIncrease = false;
+        }
+
+        if (Score.score == 10 && needSpeedIncrease1)
+        {
+            speedRoad += 1f;
+            needSpeedIncrease1 = false;
         }
     }
 
