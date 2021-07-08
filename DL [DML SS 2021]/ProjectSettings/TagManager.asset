@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemies
   - Obstacle
+  - Joystick
+  - Mashroom
+  - Cow
   layers:
   - Default
   - TransparentFX
