@@ -82,24 +82,3 @@ public class CapsMovement : MonoBehaviour
         }
     }
 }
-
-/*
- // передвижение игрока
-    private void PlayerMove()
-    {
-        //Считываем левый клик мыши, когда кнопка была отжата
-        if (Input.GetMouseButtonUp(0) == true)
-        {
-            NeedToGo = true;
-        }
-        //если значение выставленно, то наш объект должен двигаться в нужную сторону
-        if (NeedToGo)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, Input.mousePosition, speedMove * Time.deltaTime);
-            NeedToGo = false;//Выключаем, если дошли
-        }
-   
-
-        moveVector.y = gravityForce; //расчет гравитации
-        pl_controller.Move(moveVector * Time.deltaTime);
-    }*/

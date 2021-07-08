@@ -30082,6 +30082,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf39534a6ad3ea4f85c489c10b0cc86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triggerTag: Player
+  scenesChange: OpeningScene
 --- !u!1001 &1329914092
 PrefabInstance:
   m_ObjectHideFlags: 0
