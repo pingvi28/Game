@@ -3,15 +3,25 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour 
 {
-	bool gameHasEnded = false;
+	public static GameManager instance;
 
+	//public GameObject gameOverPanels;
+	//public bool gameOver;
 	public float restartDelay = 1f;
 
-	public GameObject completeLevelUI;
+	private bool gameHasEnded = false;
 
-	public void CompleteLevel ()
+	private void Awake()
 	{
-		completeLevelUI.SetActive(true);
+		instance = this;
+	}
+
+	private void Update() 
+	{
+		if (Score.score == 15) 
+		{
+			SceneManager.LoadScene("OpeningScene");
+		}
 	}
 
 	public void EndGame ()
@@ -23,9 +33,16 @@ public class GameManager : MonoBehaviour
 			Debug.Log("GAME OVER");
 			Invoke("Restart", restartDelay);
 		}
+
+		/*
+		if (gameOverPanels != null)
+			gameOverPanels.SetActive(true);
+
+		gameOver = true;
+		*/
 	}
 
-	void Restart ()
+	private void Restart ()
 	{
 		Score.score = 0;
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
