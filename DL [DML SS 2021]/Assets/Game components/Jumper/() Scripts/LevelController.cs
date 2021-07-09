@@ -28,5 +28,10 @@ public class LevelController : MonoBehaviour {
 	{
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}
+
+	public void goToHome()
+	{
+		SceneManager.LoadScene("MainScene");
+	}
 }
 
