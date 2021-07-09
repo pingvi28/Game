@@ -4,15 +4,16 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour 
 {
 	public static GameManager instance;
+	public Animator animFade;
+	public Animator animPause;
+	public Animator animHome;
 
-	//public GameObject gameOverPanels;
-	//public bool gameOver;
 	public float restartDelay = 1f;
-
 	private bool gameHasEnded = false;
 
 	private void Awake()
 	{
+		animFade.SetTrigger("fade");
 		instance = this;
 	}
 
@@ -20,8 +21,15 @@ public class GameManager : MonoBehaviour
 	{
 		if (Score.score == 15) 
 		{
-			SceneManager.LoadScene("OpeningScene");
+			SceneManager.LoadScene("MainScene");
 		}
+	}
+
+	public void AnimEndGame()
+	{
+		animFade.SetTrigger("EndGame");
+		animPause.SetTrigger("Pause");
+		animHome.SetTrigger("Home");
 	}
 
 	public void EndGame ()
@@ -33,18 +41,17 @@ public class GameManager : MonoBehaviour
 			Debug.Log("GAME OVER");
 			Invoke("Restart", restartDelay);
 		}
-
-		/*
-		if (gameOverPanels != null)
-			gameOverPanels.SetActive(true);
-
-		gameOver = true;
-		*/
 	}
 
 	private void Restart ()
 	{
+		animFade.SetTrigger("fade");
 		Score.score = 0;
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+	}
+
+	public void goToHome()
+	{
+		SceneManager.LoadScene("MainScene");
 	}
 }

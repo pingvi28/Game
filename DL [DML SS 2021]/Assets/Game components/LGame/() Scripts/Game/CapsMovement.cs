@@ -23,13 +23,16 @@ public class CapsMovement : MonoBehaviour
     private void Update()
     {
        PlayerMove();
-        GamingGravity();
+       GamingGravity();
     }
 
     private void FixedUpdate() {
-        //PlayerMove();
+        if (rb.position.y < -2f)
+        {
+            FindObjectOfType<GameManager>().AnimEndGame();
+        }
 
-        if (rb.position.y < -1f)
+        if (rb.position.y < -4f)
         {
             FindObjectOfType<GameManager>().EndGame();
         }
@@ -66,8 +69,6 @@ public class CapsMovement : MonoBehaviour
         moveVector.y = gravityForce; //расчет гравитации (прыжок)
         pl_controller.Move(moveVector * Time.deltaTime);
     }
-
-
 
     // чтобы падал
     private void GamingGravity()

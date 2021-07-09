@@ -10,12 +10,15 @@ public class PlayerMovement : MonoBehaviour
     private float gravityForce; // гравитация перса
     private Vector3 moveVector; // направление движения
 
+    public VectorValue pos;
     public CharacterController pl_controller;
     private Animator pl_animator;
     private MobileController mContr;
 
     private void Start()
     {
+        //pos = GetComponent<VectorValue>();
+        transform.position = pos.initialValue;
         pl_controller = GetComponent<CharacterController>();
         pl_animator = GetComponent<Animator>();
         mContr = GameObject.FindGameObjectWithTag("Joystick").GetComponent<MobileController>();

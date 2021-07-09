@@ -9,6 +9,7 @@ TagManager:
   - Joystick
   - Mashroom
   - Cow
+  - Change
   layers:
   - Default
   - TransparentFX

@@ -2620,7 +2620,7 @@ MonoBehaviour:
   hideDistance: 2
   obstacles:
     serializedVersion: 2
-    m_Bits: 4
+    m_Bits: 4294967295
   noPlayer:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -5012,6 +5012,23 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 881894829, guid: 0c7313421dd5865489e2637b50c560e4, type: 3}
+      propertyPath: pos
+      value: 
+      objectReference: {fileID: 11400000, guid: 902f193e5e7718545b82158b3f6fc0e7,
+        type: 2}
+    - target: {fileID: 881894829, guid: 0c7313421dd5865489e2637b50c560e4, type: 3}
+      propertyPath: jumpPower
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 881894829, guid: 0c7313421dd5865489e2637b50c560e4, type: 3}
+      propertyPath: speedMove
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 881894829, guid: 0c7313421dd5865489e2637b50c560e4, type: 3}
+      propertyPath: pl_controller
+      value: 
+      objectReference: {fileID: 8125519387403188523}
     - target: {fileID: 8126708509385848329, guid: 0c7313421dd5865489e2637b50c560e4,
         type: 3}
       propertyPath: m_Name
@@ -5074,3 +5091,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c7313421dd5865489e2637b50c560e4, type: 3}
+--- !u!143 &8125519387403188523 stripped
+CharacterController:
+  m_CorrespondingSourceObject: {fileID: 881894830, guid: 0c7313421dd5865489e2637b50c560e4,
+    type: 3}
+  m_PrefabInstance: {fileID: 8125519387403188522}
+  m_PrefabAsset: {fileID: 0}

@@ -53,6 +53,9 @@
     <UnityVersion>2020.3.12f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Game components\LGame\() Scripts\Game\CapsMovement.cs" />
     <Compile Include="Assets\Game components\Jumper\() Prefabs\() QuickOutline\Scripts\Outline.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Game\GameManager.cs" />
@@ -61,7 +64,7 @@
     <Compile Include="Assets\Game components\Jumper\() Scripts\BaseControl.cs" />
     <Compile Include="Assets\Scripts\Joystick\Joystick.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Road scripts\RoadGenerator.cs" />
-    <Compile Include="Assets\Scripts\TimeDestroy.cs" />
+    <Compile Include="Assets\Scripts\Any\TimeDestroy.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Game\FollowPlayer.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Game\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\Player\MobileController.cs" />
@@ -69,22 +72,23 @@
     <Compile Include="Assets\Scripts\ScenesChange\Scenes_withTrigger.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Road scripts\Road.cs" />
     <Compile Include="Assets\Game components\Jumper\() Scripts\Ball.cs" />
-    <Compile Include="Assets\Game components\LGame\() Scripts\Home.cs" />
     <Compile Include="Assets\Scripts\Camera\PlayerCameraController.cs" />
     <Compile Include="Assets\Scripts\Camera\FollowCamera.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Road scripts\Waypoints2.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Road scripts\Waypoints4.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\GameScriptsMenu.cs" />
+    <Compile Include="Assets\Scripts\Any\GameScriptsMenu.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerSingleton.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Road scripts\Waypoints1.cs" />
     <Compile Include="Assets\Game components\Jumper\() Scripts\PlayerController.cs" />
     <Compile Include="Assets\Game components\Jumper\() Scripts\Error.cs" />
     <Compile Include="Assets\Game components\Jumper\() Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\VectorValue.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Game\Score.cs" />
     <Compile Include="Assets\Game components\Jumper\() Scripts\LevelController.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\Mushroom\Scenes.cs" />
     <Compile Include="Assets\Scripts\Pause\Pause.cs" />
-    <Compile Include="Assets\Scripts\PlayerSingleton.cs" />
+    <Compile Include="Assets\Scripts\LevelChange.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Forest\() Shaders\Legacy\CelShader.shader" />
