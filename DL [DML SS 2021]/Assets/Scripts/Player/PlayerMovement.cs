@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speedMove = 3.0f; //скорость перса
-    public float jumpPower = 8.0f; // сила прыжка
+    public float speedMove = 3.0f;
+    public float jumpPower = 8.0f;
 
-    private float gravityForce; // гравитаци€ перса
-    private Vector3 moveVector; // направление движени€
+    private float gravityForce;
+    private Vector3 moveVector;
 
     public VectorValue pos;
     public CharacterController pl_controller;
@@ -17,8 +17,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
-        //pos = GetComponent<VectorValue>();
         transform.position = pos.initialValue;
+        //transform.position = MidSceneData.Instance.characterPosition;
+
         pl_controller = GetComponent<CharacterController>();
         pl_animator = GetComponent<Animator>();
         mContr = GameObject.FindGameObjectWithTag("Joystick").GetComponent<MobileController>();
@@ -28,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
     {
         PlayerMove();
         GamingGravity();
+        pos.SetNewPosition(transform.position);
     }
 
     // передвижение игрока

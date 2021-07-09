@@ -6,16 +6,20 @@ public class PlayerCameraController : MonoBehaviour
 {
     public Camera cam;
     public Transform target;
+
     public float speedX = 360f;
     public float speedy = 240f;
     public float limitY = 40f;
     public float minDistance = 1.5f;
     public float hideDistance = 2f;
+
+    public VectorValue pos;
     public LayerMask obstacles;
     public LayerMask noPlayer;
+
     private float _maxDistance;
-    private Vector3 _localPosition;
     private float _currentYRotation;
+    private Vector3 _localPosition;
     private LayerMask _camOrigin;
 
     private Vector3 _position

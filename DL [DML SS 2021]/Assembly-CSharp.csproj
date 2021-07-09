@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Game components\LGame\() Scripts\Game\CapsMovement.cs" />
     <Compile Include="Assets\Game components\Jumper\() Prefabs\() QuickOutline\Scripts\Outline.cs" />
+    <Compile Include="Assets\Scripts\LevelChange.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Game\GameManager.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Road scripts\Waypoints3.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\CowTrigger.cs" />
@@ -88,7 +89,7 @@
     <Compile Include="Assets\Game components\Jumper\() Scripts\LevelController.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\Mushroom\Scenes.cs" />
     <Compile Include="Assets\Scripts\Pause\Pause.cs" />
-    <Compile Include="Assets\Scripts\LevelChange.cs" />
+    <Compile Include="Assets\Scripts\MidSceneData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Forest\() Shaders\Legacy\CelShader.shader" />
