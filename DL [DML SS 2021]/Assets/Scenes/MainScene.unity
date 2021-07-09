@@ -615,6 +615,12 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 56.86
       objectReference: {fileID: 0}
+    - target: {fileID: 4365425527428238098, guid: 685324b16b6885345972216bc3b816dd,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 85c2b0ff4dd11e44e8a903fe46d9ca13,
+        type: 2}
     - target: {fileID: 4365425527428238099, guid: 685324b16b6885345972216bc3b816dd,
         type: 3}
       propertyPath: m_Name
@@ -4035,6 +4041,7 @@ GameObject:
   - component: {fileID: 1602684663}
   - component: {fileID: 1602684662}
   - component: {fileID: 1602684667}
+  - component: {fileID: 1602684666}
   m_Layer: 0
   m_Name: Water
   m_TagString: Untagged
@@ -4118,6 +4125,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 78.266, z: 0}
+--- !u!114 &1602684666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602684661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1323eba7b86e6842a931fb2c50a91db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flag: {fileID: 11400000, guid: a52d8808ecfaa9a428475dc78cdc55a7, type: 2}
 --- !u!114 &1602684667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5088,6 +5108,18 @@ PrefabInstance:
     - target: {fileID: 881894829, guid: 0c7313421dd5865489e2637b50c560e4, type: 3}
       propertyPath: speedMove
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 881894829, guid: 0c7313421dd5865489e2637b50c560e4, type: 3}
+      propertyPath: moveVector.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 881894829, guid: 0c7313421dd5865489e2637b50c560e4, type: 3}
+      propertyPath: moveVector.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 881894829, guid: 0c7313421dd5865489e2637b50c560e4, type: 3}
+      propertyPath: moveVector.z
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 881894829, guid: 0c7313421dd5865489e2637b50c560e4, type: 3}
       propertyPath: pl_controller

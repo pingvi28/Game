@@ -65,6 +65,7 @@
     <Compile Include="Assets\Game components\Jumper\() Scripts\BaseControl.cs" />
     <Compile Include="Assets\Scripts\Joystick\Joystick.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Road scripts\RoadGenerator.cs" />
+    <Compile Include="Assets\Scripts\MidSceneData.cs" />
     <Compile Include="Assets\Scripts\Any\TimeDestroy.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Game\FollowPlayer.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Game\PlayerCollision.cs" />
@@ -79,17 +80,20 @@
     <Compile Include="Assets\Game components\LGame\() Scripts\Road scripts\Waypoints4.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Any\GameScriptsMenu.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerSingleton.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Road scripts\Waypoints1.cs" />
     <Compile Include="Assets\Game components\Jumper\() Scripts\PlayerController.cs" />
     <Compile Include="Assets\Game components\Jumper\() Scripts\Error.cs" />
     <Compile Include="Assets\Game components\Jumper\() Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\VectorValue.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Game\Score.cs" />
     <Compile Include="Assets\Game components\Jumper\() Scripts\LevelController.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\Mushroom\Scenes.cs" />
     <Compile Include="Assets\Scripts\Pause\Pause.cs" />
-    <Compile Include="Assets\Scripts\MidSceneData.cs" />
+    <Compile Include="Assets\Scripts\Player\DontDestroySingleton.cs" />
+    <Compile Include="Assets\Animation\Menu\StartGame.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObject\FlagTrigger.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObject\VectorValue.cs" />
+    <Compile Include="Assets\Scripts\WaterTrigger.cs" />
+    <Compile Include="Assets\Scripts\ChangeTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Forest\() Shaders\Legacy\CelShader.shader" />
