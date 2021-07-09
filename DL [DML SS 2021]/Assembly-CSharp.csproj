@@ -57,13 +57,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Game components\LGame\() Scripts\Game\CapsMovement.cs" />
+    <Compile Include="Assets\Scripts\WaterDontScript.cs" />
     <Compile Include="Assets\Game components\Jumper\() Prefabs\() QuickOutline\Scripts\Outline.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObject\FlagTrigger.cs" />
     <Compile Include="Assets\Scripts\LevelChange.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Game\GameManager.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Road scripts\Waypoints3.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\CowTrigger.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObject\VectorValue.cs" />
     <Compile Include="Assets\Game components\Jumper\() Scripts\BaseControl.cs" />
     <Compile Include="Assets\Scripts\Joystick\Joystick.cs" />
+    <Compile Include="Assets\Animation\Menu\StartGame.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Road scripts\RoadGenerator.cs" />
     <Compile Include="Assets\Scripts\MidSceneData.cs" />
     <Compile Include="Assets\Scripts\Any\TimeDestroy.cs" />
@@ -71,10 +75,12 @@
     <Compile Include="Assets\Game components\LGame\() Scripts\Game\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\Player\MobileController.cs" />
     <Compile Include="Assets\Game components\Jumper\() Scripts\ScoreTrigger.cs" />
+    <Compile Include="Assets\Scripts\Player\DontDestroySingleton.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\Scenes_withTrigger.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Road scripts\Road.cs" />
     <Compile Include="Assets\Game components\Jumper\() Scripts\Ball.cs" />
     <Compile Include="Assets\Scripts\Camera\PlayerCameraController.cs" />
+    <Compile Include="Assets\Scripts\ChangeFlag.cs" />
     <Compile Include="Assets\Scripts\Camera\FollowCamera.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Road scripts\Waypoints2.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Road scripts\Waypoints4.cs" />
@@ -88,12 +94,6 @@
     <Compile Include="Assets\Game components\Jumper\() Scripts\LevelController.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\Mushroom\Scenes.cs" />
     <Compile Include="Assets\Scripts\Pause\Pause.cs" />
-    <Compile Include="Assets\Scripts\Player\DontDestroySingleton.cs" />
-    <Compile Include="Assets\Animation\Menu\StartGame.cs" />
-    <Compile Include="Assets\Scripts\ScriptableObject\FlagTrigger.cs" />
-    <Compile Include="Assets\Scripts\ScriptableObject\VectorValue.cs" />
-    <Compile Include="Assets\Scripts\WaterTrigger.cs" />
-    <Compile Include="Assets\Scripts\ChangeTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Forest\() Shaders\Legacy\CelShader.shader" />

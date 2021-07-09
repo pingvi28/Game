@@ -61,7 +61,6 @@ public class PlayerMovement : MonoBehaviour
             if (gravityForce < -3f) pl_animator.SetBool("Falling", true);
         }
 
-
         moveVector.y = gravityForce; //расчет гравитации
         pl_controller.Move(moveVector * Time.deltaTime);
     }
@@ -91,7 +90,6 @@ public class PlayerMovement : MonoBehaviour
 
     public void JumpButton()
     {
-
         gravityForce = jumpPower;
         pl_animator.SetTrigger("Jump");
     }

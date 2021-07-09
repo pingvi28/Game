@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
@@ -8,10 +6,15 @@ public class Scenes_withTrigger : MonoBehaviour
 {
     public string triggerTag;
     public string scenesChange;
+    private bool turningOn = false;
+
+    private void Start(){
+        turningOn = true;
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag(triggerTag))
+        if (turningOn && other.CompareTag(triggerTag))
         {
             NextLevel();
         }
