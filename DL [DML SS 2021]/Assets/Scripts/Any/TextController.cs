@@ -9,9 +9,8 @@ public class TextController : MonoBehaviour
 	public bool flag = true;
 
 	private void Start()
-    {
-		num.IncreaseCount();
-		int count = num.count - 1;
+	{ 
+		int count = num.count;
 
 		if (count <= Text.Length) 
 		{

@@ -638,7 +638,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &724784367
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1287,6 +1287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scCh: {fileID: 11400000, guid: 342405e7ac8849841958a9ee22556963, type: 2}
+  num: {fileID: 11400000, guid: ee044df6d9150954f8ed4c6f3c53951b, type: 2}
   animPlay: {fileID: 2411645}
   animHome: {fileID: 724784371}
 --- !u!4 &1103921866

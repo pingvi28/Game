@@ -12,6 +12,11 @@ public class TextNumber : ScriptableObject
         count++;
     }
 
+    public void RuduseCount()
+    {
+        count--;
+    }
+
     public void SetNewCount()
     {
         count = 0;

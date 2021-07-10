@@ -7,6 +7,7 @@ public class IntermediatleController : MonoBehaviour
 {
 	public static IntermediatleController instance;
 	public SceneChangeNumder scCh;
+	public TextNumber num;
 	public Animator animPlay;
 	public Animator animHome;
 
@@ -19,6 +20,7 @@ public class IntermediatleController : MonoBehaviour
 
 	private void Start() 
 	{
+		num.IncreaseCount();
 		scCh.IncreaseScCount();
 	}
 

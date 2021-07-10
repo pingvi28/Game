@@ -37839,6 +37839,8 @@ MonoBehaviour:
   animFade: {fileID: 1310025163}
   animPause: {fileID: 860978717}
   animHome: {fileID: 1464210711}
+  scCh: {fileID: 11400000, guid: 342405e7ac8849841958a9ee22556963, type: 2}
+  text: {fileID: 11400000, guid: ee044df6d9150954f8ed4c6f3c53951b, type: 2}
   restartDelay: 1
 --- !u!4 &1661718267
 Transform:

@@ -10,6 +10,8 @@ public class LevelController : MonoBehaviour {
 
 	public GameObject gameOverPanel;
 	public bool gameOver;
+	public SceneChangeNumder scCh;
+	public TextNumber text;
 
 	private void Awake()
 	{
@@ -31,6 +33,8 @@ public class LevelController : MonoBehaviour {
 
 	public void goToHome()
 	{
+		scCh.ReduseScCount();
+		text.RuduseCount();
 		SceneManager.LoadScene("MainScene");
 	}
 }

@@ -12,6 +12,11 @@ public class SceneChangeNumder : ScriptableObject
         sceneChangeCount++;
     }
 
+    public void ReduseScCount()
+    {
+        sceneChangeCount--;
+    }
+
     public void SetNewCount()
     {
         sceneChangeCount = 0;

@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 	public Animator animFade;
 	public Animator animPause;
 	public Animator animHome;
+	public SceneChangeNumder scCh;
+	public TextNumber text;
 
 	public float restartDelay = 1f;
 	private bool gameHasEnded = false;
@@ -52,6 +54,8 @@ public class GameManager : MonoBehaviour
 
 	public void goToHome()
 	{
+		scCh.ReduseScCount();
+		text.RuduseCount();
 		SceneManager.LoadScene("MainScene");
 	}
 }
