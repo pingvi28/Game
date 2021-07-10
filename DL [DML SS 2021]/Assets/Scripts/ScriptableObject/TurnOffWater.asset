@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c063cc029af52d40b895fbc1a34baf8, type: 3}
   m_Name: TurnOffWater
   m_EditorClassIdentifier: 
-  status: 0
+  status: 1

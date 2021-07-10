@@ -10,6 +10,7 @@ TagManager:
   - Mashroom
   - Cow
   - Change
+  - t1
   layers:
   - Default
   - TransparentFX

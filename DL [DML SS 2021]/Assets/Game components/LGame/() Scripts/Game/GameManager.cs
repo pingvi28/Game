@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
 	{
 		if (Score.score == 15) 
 		{
-			SceneManager.LoadScene("MainScene");
+			SceneManager.LoadScene("Intermediate");
 		}
 	}
 

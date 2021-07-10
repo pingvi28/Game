@@ -10,7 +10,7 @@ public class Scenes : MonoBehaviour, IPointerClickHandler
     }
 
     public void NextLevel() {
-        SceneManager.LoadScene("CapsGame");
+        SceneManager.LoadScene("Intermediate");
     }
 }
 
