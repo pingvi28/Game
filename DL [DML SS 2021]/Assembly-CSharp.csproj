@@ -70,7 +70,6 @@
     <Compile Include="Assets\Animation\Menu\StartGame.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Road scripts\RoadGenerator.cs" />
     <Compile Include="Assets\Scripts\MidSceneData.cs" />
-    <Compile Include="Assets\Scripts\Any\TimeDestroy.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Game\FollowPlayer.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Game\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\Player\MobileController.cs" />
