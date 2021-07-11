@@ -380,29 +380,20 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 8
-    m_MaxSize: 24
+    m_MaxSize: 80
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Hello! Ahead of you are waiting for interesting tasks, so tune in to the
+  m_Text: "Hello! Ahead of you are waiting for interesting tasks, so tune in to the
     game and be ready for anything! To begin with, you will be transferred to the
-    first location - this is the forest. Here you need to find a lake and jump into
-    it. You''ll ask, "Why do you need this?" And I''ll say, "There''s the first part
-    of the game waiting for you, but first things first."
-
-
-    <color="#006400">If
-    you''re ready, click on the startwew</color>
-
-
-    <i>P.s. Use the joystick to
-    get around. If you want to jump, scroll the mouse wheel up</i>
-
-
-'
+    first location - this is the forest. Here you need to find the Robot.  I remember
+    seeing him outside the house.\nStart a dialogue with him, and then you will understand
+    what to do.\n\n \"The first part of the game is waiting for you...\".\n Have
+    a good time :\u0437\n<color=\"#006400\">If you're ready, click on the startwew</color>\n\n<i>P.s.
+    Use the joystick to get around. If you want to jump, scroll the mouse wheel up</i>\n\n"
 --- !u!222 &233848223
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -969,24 +960,19 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 8
-    m_MaxSize: 24
+    m_MaxSize: 80
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'It was a tough day. You coped with all the tasks perfectly and helped
-    your friend! You have not been stopped by any difficulties and it is delightful!
-    Congratulations, you won!
-
-    You can walk around the location or start all
-    over again. Click "back to menu"
-
-
-    <b><color="#016480">Good luck</color></b>
-
-'
+  m_Text: "It was a tough day. You perfectly coped with all the tasks and helped
+    your friend to collect all the cows! You have not been stopped by any difficulties
+    and it is delightful! \n\nCongratulations, you won!\n\nYou can walk around the
+    location or start all over again. Click \"Back to menu\"\n\nBefore you leave,
+    look at what kind of pound  the cow robot built = > (it is behind the mountain)\n\n<b><color=\"#016480\">Good
+    luck</color></b>\n"
 --- !u!222 &802520813
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1100,7 +1086,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 8
-    m_MaxSize: 24
+    m_MaxSize: 80
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1230,7 +1216,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 8
-    m_MaxSize: 24
+    m_MaxSize: 80
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1455,7 +1441,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 8
-    m_MaxSize: 24
+    m_MaxSize: 80
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
