@@ -4,9 +4,14 @@ using UnityEngine.SceneManagement;
 
 public class Scenes : MonoBehaviour, IPointerClickHandler
 {
-    public void OnPointerClick(PointerEventData eventData) {
-        Debug.Log("sasa");
-        NextLevel();
+    public Quest qu;
+
+    public void OnPointerClick(PointerEventData eventData) 
+    {
+        if (qu.flag)
+        {
+            NextLevel();
+        }
     }
 
     public void NextLevel() {

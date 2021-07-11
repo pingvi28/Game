@@ -69,8 +69,10 @@
     <Compile Include="Assets\Scripts\Joystick\Joystick.cs" />
     <Compile Include="Assets\Scripts\Menu\StartGame.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Road scripts\RoadGenerator.cs" />
-    <Compile Include="Assets\Scripts\IntermediatleController.cs" />
+    <Compile Include="Assets\Scripts\ScenesChange\IntermediatleController.cs" />
     <Compile Include="Assets\Scripts\Any\MidSceneData.cs" />
+    <Compile Include="Assets\Scripts\Any\TextController.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObject\SceneChangeNumder.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Game\FollowPlayer.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Game\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\Player\MobileController.cs" />
@@ -89,13 +91,21 @@
     <Compile Include="Assets\Game components\Jumper\() Scripts\PlayerController.cs" />
     <Compile Include="Assets\Game components\Jumper\() Scripts\Error.cs" />
     <Compile Include="Assets\Game components\Jumper\() Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObject\TextNumber.cs" />
     <Compile Include="Assets\Game components\LGame\() Scripts\Game\Score.cs" />
     <Compile Include="Assets\Game components\Jumper\() Scripts\LevelController.cs" />
     <Compile Include="Assets\Scripts\ScenesChange\Mushroom\Scenes.cs" />
     <Compile Include="Assets\Scripts\Pause\Pause.cs" />
-    <Compile Include="Assets\Scripts\ScriptableObject\TextNumber.cs" />
-    <Compile Include="Assets\Scripts\Any\TextController.cs" />
-    <Compile Include="Assets\Scripts\ScriptableObject\SceneChangeNumder.cs" />
+    <Compile Include="Assets\Scripts\Inventary\Inventory.cs" />
+    <Compile Include="Assets\Scripts\Inventary\Case.cs" />
+    <Compile Include="Assets\Scripts\Inventary\PickUp.cs" />
+    <Compile Include="Assets\Scripts\Inventary\Spawn.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\Dialogue.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\DialogueManager.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\DialogTrigger.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\DialogAnim.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\Wanted\QuestCloud.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\Wanted\Quest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Forest\() Shaders\Legacy\CelShader.shader" />
