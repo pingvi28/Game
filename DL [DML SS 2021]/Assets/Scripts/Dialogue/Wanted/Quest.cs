@@ -7,7 +7,6 @@ public class Quest : MonoBehaviour
     public int questNumber;
     public int[] items;
     public GameObject[] clouds;
-    public bool flag = false;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -32,11 +31,11 @@ public class Quest : MonoBehaviour
             {
                 clouds[i].SetActive(false);
             }
-
-            if (questNumber == 0)
-            {
-                flag = true;
-            }
         }
+    }
+
+    public void increaseQueuestNumber()
+    {
+        questNumber++;
     }
 }
