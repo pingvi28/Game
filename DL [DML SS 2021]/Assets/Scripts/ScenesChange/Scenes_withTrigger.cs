@@ -12,7 +12,7 @@ public class Scenes_withTrigger : MonoBehaviour
         turningOn = true;
     }
 
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (turningOn && other.CompareTag(triggerTag))
         {

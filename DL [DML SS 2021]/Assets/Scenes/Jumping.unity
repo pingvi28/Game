@@ -628,7 +628,7 @@ RectTransform:
   m_GameObject: {fileID: 166431266}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 11.62, y: 7.58, z: 1}
+  m_LocalScale: {x: 11.62, y: 9.215764, z: 1}
   m_Children:
   - {fileID: 1699380056}
   m_Father: {fileID: 788477078}
@@ -1010,9 +1010,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.8490566, g: 0.35546127, b: 0.35546127, a: 1}
+    m_PressedColor: {r: 0.8301887, g: 0.3318982, b: 0.3318982, a: 1}
+    m_SelectedColor: {r: 0.8773585, g: 0.30937123, b: 0.30937123, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -2040,6 +2040,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlackFate
       objectReference: {fileID: 0}
+    - target: {fileID: 1437653512949938140, guid: 49415771c9f81324d827791fb3a16e97,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1437653512949938143, guid: 49415771c9f81324d827791fb3a16e97,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2053,7 +2058,7 @@ PrefabInstance:
     - target: {fileID: 1437653512949938143, guid: 49415771c9f81324d827791fb3a16e97,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1437653512949938143, guid: 49415771c9f81324d827791fb3a16e97,
         type: 3}
@@ -2078,12 +2083,12 @@ PrefabInstance:
     - target: {fileID: 1437653512949938143, guid: 49415771c9f81324d827791fb3a16e97,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: -226
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1437653512949938143, guid: 49415771c9f81324d827791fb3a16e97,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: -500
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1437653512949938143, guid: 49415771c9f81324d827791fb3a16e97,
         type: 3}
@@ -2093,7 +2098,7 @@ PrefabInstance:
     - target: {fileID: 1437653512949938143, guid: 49415771c9f81324d827791fb3a16e97,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.6585138
+      value: 1.5215808
       objectReference: {fileID: 0}
     - target: {fileID: 1437653512949938143, guid: 49415771c9f81324d827791fb3a16e97,
         type: 3}
@@ -2133,12 +2138,12 @@ PrefabInstance:
     - target: {fileID: 1437653512949938143, guid: 49415771c9f81324d827791fb3a16e97,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.000061035156
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1437653512949938143, guid: 49415771c9f81324d827791fb3a16e97,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00024414062
+      value: -0.000030517578
       objectReference: {fileID: 0}
     - target: {fileID: 1437653512949938143, guid: 49415771c9f81324d827791fb3a16e97,
         type: 3}
@@ -2707,7 +2712,7 @@ RectTransform:
   m_GameObject: {fileID: 1699380055}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.08089501, y: 0.13192612, z: 1}
+  m_LocalScale: {x: 0.08089501, y: 0.108509734, z: 1}
   m_Children: []
   m_Father: {fileID: 166431267}
   m_RootOrder: 0
@@ -2739,8 +2744,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.37949955, g: 0.7264151, b: 0.44254628, a: 1}
+    m_PressedColor: {r: 0.2623307, g: 0.6886792, b: 0.46875757, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1

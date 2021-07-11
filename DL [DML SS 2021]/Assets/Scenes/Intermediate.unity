@@ -152,15 +152,15 @@ RectTransform:
   m_GameObject: {fileID: 2411640}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.10806601, y: 0.09631571, z: 0.10416}
+  m_LocalScale: {x: 0.12632917, y: 0.11259307, z: 0.12176305}
   m_Children: []
   m_Father: {fileID: 546228364}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 7, y: -193}
-  m_SizeDelta: {x: 304.5, y: 290}
+  m_AnchorMax: {x: 1, y: 0.23500001}
+  m_AnchoredPosition: {x: 7, y: 13}
+  m_SizeDelta: {x: 304.5, y: 697}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2411642
 MonoBehaviour:
@@ -303,16 +303,16 @@ RectTransform:
   m_GameObject: {fileID: 233848219}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3863689, y: 0.3863689, z: 0.3863689}
   m_Children: []
   m_Father: {fileID: 1454452439}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 10.000015}
-  m_SizeDelta: {x: 239.37018, y: 183.018}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -3.5299683, y: -5.953823}
+  m_SizeDelta: {x: 271.08508, y: 182.58595}
+  m_Pivot: {x: 0.5, y: 0.53}
 --- !u!23 &233848221
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -379,7 +379,7 @@ MonoBehaviour:
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
+    m_MinSize: 8
     m_MaxSize: 24
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -589,6 +589,7 @@ RectTransform:
   - {fileID: 724784367}
   - {fileID: 2411641}
   - {fileID: 1619549812}
+  - {fileID: 1454452439}
   - {fileID: 1297136897}
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -891,15 +892,15 @@ RectTransform:
   m_GameObject: {fileID: 802520809}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3863689, y: 0.3863689, z: 0.3863689}
   m_Children: []
   m_Father: {fileID: 1454452439}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 10}
-  m_SizeDelta: {x: 239.37018, y: 183.018}
+  m_AnchorMin: {x: 0.025687985, y: 0.2987258}
+  m_AnchorMax: {x: 0.9686241, y: 0.908121}
+  m_AnchoredPosition: {x: 1.5220947, y: -16.876305}
+  m_SizeDelta: {x: 306.71265, y: 235.75262}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &802520811
 MeshRenderer:
@@ -967,7 +968,7 @@ MonoBehaviour:
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
+    m_MinSize: 8
     m_MaxSize: 24
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -983,7 +984,7 @@ MonoBehaviour:
     over again. Click "back to menu"
 
 
-    Good luck
+    <b><color="#016480">Good luck</color></b>
 
 '
 --- !u!222 &802520813
@@ -1022,15 +1023,15 @@ RectTransform:
   m_GameObject: {fileID: 864325018}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3863689, y: 0.3863689, z: 0.3863689}
   m_Children: []
   m_Father: {fileID: 1454452439}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 10.000015}
-  m_SizeDelta: {x: 239.37018, y: 183.018}
+  m_AnchorMin: {x: 0.039, y: 0.2987258}
+  m_AnchorMax: {x: 0.9686241, y: 0.908121}
+  m_AnchoredPosition: {x: 0.27618408, y: -16.87629}
+  m_SizeDelta: {x: 308.44104, y: 235.75275}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &864325020
 MeshRenderer:
@@ -1098,7 +1099,7 @@ MonoBehaviour:
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
+    m_MinSize: 8
     m_MaxSize: 24
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1152,15 +1153,15 @@ RectTransform:
   m_GameObject: {fileID: 894076029}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3863689, y: 0.3863689, z: 0.3863689}
   m_Children: []
   m_Father: {fileID: 1454452439}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 10.000015}
-  m_SizeDelta: {x: 239.37018, y: 183.018}
+  m_AnchorMin: {x: 0.039, y: 0.2987258}
+  m_AnchorMax: {x: 0.9686241, y: 0.908121}
+  m_AnchoredPosition: {x: 0.27618408, y: -16.87629}
+  m_SizeDelta: {x: 308.44104, y: 235.75275}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &894076031
 MeshRenderer:
@@ -1228,7 +1229,7 @@ MonoBehaviour:
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
+    m_MinSize: 8
     m_MaxSize: 24
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1334,20 +1335,20 @@ RectTransform:
   m_GameObject: {fileID: 1454452438}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1533513, y: 1.2732432, z: 1}
+  m_LocalScale: {x: 2.5837483, y: 2.5837483, z: 2.5837483}
   m_Children:
   - {fileID: 233848220}
   - {fileID: 864325019}
   - {fileID: 1563015554}
   - {fileID: 894076030}
   - {fileID: 802520810}
-  m_Father: {fileID: 1619549812}
-  m_RootOrder: 0
+  m_Father: {fileID: 546228364}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 4.6134644, y: -22.918427}
-  m_SizeDelta: {x: -421.2682, y: -279.5}
+  m_AnchorMin: {x: 0.093644656, y: 0.32333064}
+  m_AnchorMax: {x: 0.90864474, y: 0.8516371}
+  m_AnchoredPosition: {x: 3.500061, y: 28}
+  m_SizeDelta: {x: -321, y: -165.18872}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1563015553
 GameObject:
@@ -1377,15 +1378,15 @@ RectTransform:
   m_GameObject: {fileID: 1563015553}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3863689, y: 0.3863689, z: 0.3863689}
   m_Children: []
   m_Father: {fileID: 1454452439}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 10.000015}
-  m_SizeDelta: {x: 239.37018, y: 183.018}
+  m_AnchorMin: {x: 0.039, y: 0.2987258}
+  m_AnchorMax: {x: 0.9686241, y: 0.908121}
+  m_AnchoredPosition: {x: 0.27618408, y: -16.87629}
+  m_SizeDelta: {x: 308.44104, y: 235.75275}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &1563015555
 MeshRenderer:
@@ -1453,7 +1454,7 @@ MonoBehaviour:
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
+    m_MinSize: 8
     m_MaxSize: 24
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1504,16 +1505,15 @@ RectTransform:
   m_GameObject: {fileID: 1619549811}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8670385, y: 0.7853959, z: 1}
-  m_Children:
-  - {fileID: 1454452439}
+  m_LocalScale: {x: 0.87, y: 0.82, z: 1}
+  m_Children: []
   m_Father: {fileID: 546228364}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: 57}
-  m_SizeDelta: {x: 25.268166, y: 395.5}
+  m_AnchorMin: {x: 0.021105584, y: 0.32333064}
+  m_AnchorMax: {x: 0.9866064, y: 0.90963715}
+  m_AnchoredPosition: {x: -0.8834839, y: 7}
+  m_SizeDelta: {x: 63.76699, y: 83.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1619549813
 MonoBehaviour:
@@ -1583,7 +1583,7 @@ PrefabInstance:
     - target: {fileID: 1437653512949938140, guid: 49415771c9f81324d827791fb3a16e97,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1437653512949938143, guid: 49415771c9f81324d827791fb3a16e97,
         type: 3}
@@ -1598,7 +1598,7 @@ PrefabInstance:
     - target: {fileID: 1437653512949938143, guid: 49415771c9f81324d827791fb3a16e97,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1437653512949938143, guid: 49415771c9f81324d827791fb3a16e97,
         type: 3}
